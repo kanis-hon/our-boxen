@@ -99,9 +99,19 @@ GITHUBTARBALL
     stdlib (4.2.1)
 
 GITHUBTARBALL
+  remote: puppetlabs/puppetlabs_spec_helper
+  specs:
+    puppetlabs_spec_helper (0.8.2)
+
+GITHUBTARBALL
   remote: ripienaar/puppet-module-data
   specs:
     module_data (0.0.3)
+
+GITHUBTARBALL
+  remote: rodjek/rspec-puppet
+  specs:
+    rspec-puppet (2.0.0)
 
 DEPENDENCIES
   boxen (= 3.7.0)
@@ -120,7 +130,9 @@ DEPENDENCIES
   openssl (= 1.0.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
+  puppetlabs_spec_helper (= 0.8.2)
   repository (= 2.3.0)
+  rspec-puppet (= 2.0.0)
   ruby (= 8.1.7)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
