@@ -52,11 +52,14 @@ github "nodejs",      "4.0.0"
 github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
+github "puppetlabs_spec_helper", "0.8.2"
 github "repository",  "2.3.0"
+github "rspec-puppet","2.0.0", :repo => "rodjek/rspec-puppet"
 github "ruby",        "8.1.7"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
+
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
