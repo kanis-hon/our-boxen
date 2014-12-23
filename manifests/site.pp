@@ -56,6 +56,7 @@ node default {
   #include dnsmasq
   include git
   include hub
+  include java
   #include nginx
 
   # fail if FDE is not enabled
