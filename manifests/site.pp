@@ -58,7 +58,7 @@ node default {
   include hub
   include java
   include rspec-puppet
-  include puppetlabs_spec_helper
+  #include puppetlabs_spec_helper
   #include nginx
 
   # fail if FDE is not enabled
