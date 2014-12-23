@@ -57,6 +57,7 @@ node default {
   include git
   include hub
   include java
+  include rspec-puppet
   #include nginx
 
   # fail if FDE is not enabled
