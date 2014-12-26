@@ -57,7 +57,7 @@ node default {
   include git
   include hub
   include java
-  include rspec_puppet
+  #include rspec_puppet
   #include puppetlabs_spec_helper
   #include nginx
 
